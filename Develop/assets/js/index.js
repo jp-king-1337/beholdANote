@@ -1,5 +1,10 @@
+// COMPLETE:
 // Opening app should load the landing page, index.html, which has a link to the notes page, notes.html
 
+
+
+
+// TASKS:
 // Clicking link to notes.html should open that page
 // notes.html should have a left-hand column containing existing notes, along with a right-hand column containing empty fields to enter a new note title and the note's text
 
