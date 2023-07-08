@@ -57,7 +57,19 @@ router.delete("api/notes/:id", (clientReq, serverRes) => {
 
         let notes = JSON.parse(data);
 
-        
+        // Need to find the note with the given id
+        const noteIndex = notes.findIndex((note) => note.id === noteId);
+
+        notes.splice(noteIndex, 1);
+        // I think splice will work to delete? If I splice it at 1 it should take away every part of the selected note
+
+        fs.writeFile(dbPath, JSON.stringify(notes), (err) => {
+            if (err) throw err;
+
+            console.log("Note has been deleted.");
+
+            serverRes();
+        })
     })
 })
 
