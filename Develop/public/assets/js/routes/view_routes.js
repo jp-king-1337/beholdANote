@@ -48,6 +48,7 @@ router.post("/api/notes", (clientReq, serverRes) => {
     });
 });
 
-// Delete button
+// Delete route
+router.delete("api/notes/:id")
 
 module.exports = router;
