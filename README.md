@@ -26,9 +26,9 @@ git clone git@github.com:jp-king-1337/beholdANote.git
 
 This project is to be graded as part of my participation in the Rutgers Coding Bootcamp.
 
-[Deployed Link](https://jp-king-1337.github.io/beholdANote/)
+[Deployed Link](https://behold-a-note-08b5d4d48b5b.herokuapp.com/)
 
-1. Visit the [deployed link](https://jp-king-1337.github.io/beholdANote/).
+1. Visit the [deployed link](https://behold-a-note-08b5d4d48b5b.herokuapp.com/).
 2. Click the "Get Started" button.
 3. Click on "Note Title" to enter a title for your note.
 4. Click on "Note Text" to enter the inner text of your note.
