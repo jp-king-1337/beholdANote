@@ -5,6 +5,8 @@
 
 This is my refactor of the starter code for Module 11's Note Taker app. It allows the user to save and delete notes.
 
+Screenshots coming soon!
+
 
 ## Table of Contents
 
