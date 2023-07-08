@@ -49,6 +49,10 @@ router.post("/api/notes", (clientReq, serverRes) => {
 });
 
 // Delete route
-router.delete("api/notes/:id")
+router.delete("api/notes/:id", (clientReq, serverRes) => {
+    const noteId = clientReq.params.id;
+
+    
+})
 
 module.exports = router;
