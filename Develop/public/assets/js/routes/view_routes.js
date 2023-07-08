@@ -52,7 +52,13 @@ router.post("/api/notes", (clientReq, serverRes) => {
 router.delete("api/notes/:id", (clientReq, serverRes) => {
     const noteId = clientReq.params.id;
 
-    
+    fs.readFile(dbPath, "utf8", (err, data) => {
+        if (err) throw err;
+
+        let notes = JSON.parse(data);
+
+        
+    })
 })
 
 module.exports = router;
