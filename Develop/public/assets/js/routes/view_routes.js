@@ -28,21 +28,23 @@ router.get("/api/notes", (clientReq, serverRes) => {
 });
 
 router.post("/api/notes", (clientReq, serverRes) => {
-    // if (err) throw err;
-
-    let notes = JSON.parse(data);
-
-    const newNote = clientReq.body;
-    newNote.id = uuidv4()
-
-    notes.push(newNote);
-
-    fs.writeFile(dbPath, JSON.stringify(notes), (err) => {
+    fs.readFile(dbPath, "utf8", (err, data) => {
         if (err) throw err;
 
-        console.log("New note has been saved.");
+        let notes = JSON.parse(data);
 
-        serverRes.json(newNote);
+        const newNote = clientReq.body;
+        newNote.id = uuidv4()
+
+        notes.push(newNote);
+
+        fs.writeFile(dbPath, JSON.stringify(notes), (err) => {
+            if (err) throw err;
+
+            console.log("New note has been saved.");
+
+            serverRes.json(newNote);
+        });
     });
 });
 
