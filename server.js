@@ -2,7 +2,7 @@ const express = require("express");
 
 const app = express();
 const PORT = process.env.PORT || 3333;
-const view_routes = require("./public/assets/js/routes/view_routes.js");
+const view_routes = require("./assets/js/routes/view_routes.js");
 
 // Middleware
 app.use(express.static("public"));
