@@ -5,7 +5,10 @@
 
 This is my refactor of the starter code for Module 11's Note Taker app. It allows the user to save and delete notes.
 
-Screenshots coming soon!
+![landing page](public/assets/screenshots/1landingPage.png)
+![notes page after clicking start button](public/assets/screenshots/2notesPage.png)
+![the save icon is present once text is entered](public/assets/screenshots/3saveIcon.png)
+![a new note has been saved](public/assets/screenshots/4newNote.png)
 
 
 ## Table of Contents
