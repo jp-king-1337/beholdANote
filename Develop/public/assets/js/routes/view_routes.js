@@ -49,7 +49,7 @@ router.post("/api/notes", (clientReq, serverRes) => {
 });
 
 // Delete route
-router.delete("api/notes/:id", (clientReq, serverRes) => {
+router.delete("/api/notes/:id", (clientReq, serverRes) => {
     const noteId = clientReq.params.id;
 
     fs.readFile(dbPath, "utf8", (err, data) => {
