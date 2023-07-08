@@ -68,7 +68,7 @@ router.delete("/api/notes/:id", (clientReq, serverRes) => {
 
             console.log("Note has been deleted.");
 
-            serverRes();
+            serverRes.sendStatus(204);
         })
     })
 })
