@@ -28,7 +28,7 @@ router.get("/api/notes", (clientReq, serverRes) => {
 });
 
 router.post("/api/notes", (clientReq, serverRes) => {
-    if (err) throw err;
+    // if (err) throw err;
 
     let notes = JSON.parse(data);
 
