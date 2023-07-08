@@ -5,7 +5,10 @@
 
 This is my refactor of the starter code for Module 11's Note Taker app. It allows the user to save and delete notes.
 
-Screenshots coming soon!
+![landing page](public/assets/screenshots/1landingPage.png)
+![notes page after clicking start button](public/assets/screenshots/2notesPage.png)
+![the save icon is present once text is entered](public/assets/screenshots/3saveIcon.png)
+![a new note has been saved](public/assets/screenshots/4newNote.png)
 
 
 ## Table of Contents
@@ -26,9 +29,9 @@ git clone git@github.com:jp-king-1337/beholdANote.git
 
 This project is to be graded as part of my participation in the Rutgers Coding Bootcamp.
 
-[Deployed Link](https://jp-king-1337.github.io/beholdANote/)
+[Deployed Link](https://behold-a-note-08b5d4d48b5b.herokuapp.com/)
 
-1. Visit the [deployed link](https://jp-king-1337.github.io/beholdANote/).
+1. Visit the [deployed link](https://behold-a-note-08b5d4d48b5b.herokuapp.com/).
 2. Click the "Get Started" button.
 3. Click on "Note Title" to enter a title for your note.
 4. Click on "Note Text" to enter the inner text of your note.
